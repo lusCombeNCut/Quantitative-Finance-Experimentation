@@ -2,6 +2,8 @@
 
 Given I am now applying for oppourtunites in the quant industry I have collated my personal experiments in this reop.
 
+These strategies focus on financial indicators, I am looking to move into more specialised datasets and deep learning methods to extract data form sources such as weather, satellite, news sentiment and other large rich data sources.
+
 # Trading Strategies
 
 This repository implements multiple trading strategies using Backtrader, leveraging indicators like ConnorsRSI and VWAP. It includes mean reversion, trend following, and breakout strategies.
