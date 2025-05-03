@@ -1,14 +1,14 @@
-#### Personal Quantative Finance Project
+## Personal Quantative Finance Project
 
 Given I am now applying for oppourtunites in the quant industry I have collated my personal experiments in this reop.
 
 These strategies focus on financial indicators, I am looking to move into more specialised datasets and deep learning methods to extract data form sources such as weather, satellite, news sentiment and other large rich data sources.
 
-# Trading Strategies
+### Trading Strategies
 
 This repository implements multiple trading strategies using Backtrader, leveraging indicators like ConnorsRSI and VWAP. It includes mean reversion, trend following, and breakout strategies.
 
-## Indicators
+#### Indicators
 
 - **ConnorsRSI**: Combines RSI, streak RSI, and rank period for relative strength.
 - **VWAP**: Volume-weighted average price as a benchmark.
@@ -16,21 +16,21 @@ This repository implements multiple trading strategies using Backtrader, leverag
 - **Standard Deviation**: Used in mean reversion for calculating price bands.
 - **Highest/Lowest**: Identifies price extremes for breakout strategy.
 
-## Strategies
+#### Strategies
 
-### 1. Mean Reversion
+##### 1. Mean Reversion
 - **Buy**: When the price is below the lower band and ConnorsRSI is low.
 - **Sell**: When the price exceeds the upper band or ConnorsRSI is high, or stop loss/take profit conditions are met.
 
-### 2. Trend Following
+##### 2. Trend Following
 - **Buy**: When the price is above the SMA.
 - **Sell**: When the price falls below the SMA or meets stop loss/take profit conditions.
 
-### 3. Breakout
+##### 3. Breakout
 - **Buy**: When the price breaks above the highest point in a given period.
 - **Sell**: When it falls below the lowest point or meets stop loss/take profit conditions.
 
-### 4. Combined Strategy
+##### 4. Combined Strategy
 - Merges Mean Reversion, Trend Following, and Breakout strategies, executing based on the strongest signal.
 
 ## Risk Management
