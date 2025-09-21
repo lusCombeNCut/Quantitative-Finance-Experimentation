@@ -2,7 +2,7 @@
 
 These strategies focus on financial indicators, which are unlikely to provide considerable alpha on their own. However, this project allowed me to practice back testing multiple strategies with different risk profiles and methodologies. 
 
-More recently I have completed a project that demonstrated a time delayed correlation with twitter sentiment and Bitcoin price, potentially offering a valuable trading signal. This project can be accessed here [ADS-US_Election](https://github.com/lusCombeNCut/ADS-US-Election). In the future I will look to explore more diverse data sources such as weather or satellite imagery for commodities trading.
+More recently I demonstrated a time delayed correlation with twitter sentiment and Bitcoin price, potentially offering a valuable trading signal. More details on this results and the research project can be accessed here [ADS-US_Election](https://github.com/lusCombeNCut/ADS-US-Election). In the future I will look to explore more diverse data sources such as weather or satellite imagery for commodities trading.
 
 ### Trading Strategies
 
